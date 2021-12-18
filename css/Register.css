@@ -1,0 +1,79 @@
+.body{
+    height: 100%;
+    background-image: url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.div{
+    background-color:rgb(173, 191, 230);
+    padding: 10px;       
+}
+.navButton{
+    border: 0px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: rgb(173, 191, 230);
+}
+
+.flex-outer{
+    height:100%; 
+    display:flex;
+    align-items: center
+}
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    padding: 3%;
+    height: 100%;
+    width: 33%;
+    background-color: inherit;
+}
+.flex-container .row{
+    display:flex;
+    flex-direction:row;
+}
+label {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input[type="text"],[type="Email"],[type="password"]{
+    font-size: 18px;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #666;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    background: whitesmoke;
+    outline: none;
+  }
+.flex-container div { 
+    padding :2%;   
+    align-content: center;
+    flex-direction: row;  
+    justify-content: center;   
+    flex: 1 1 auto;
+  }
+  .flex-container .one{ 
+    border-radius: 22px;
+    background: rgb(170, 170, 233);
+    padding-left: 10%;
+    
+  }
+#btn{
+    height: 60%;
+    width: 30%;
+    background-color: rgb(34, 212, 93);
+}
+#lbe{
+    text-align: center; 
+    height: 100%;
+    width: 100%;
+    color: tomato;
+}
+.flex-container-2 .input{
+    border-radius:1em;
+    width: 50%;
+}

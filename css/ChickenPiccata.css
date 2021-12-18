@@ -1,0 +1,28 @@
+
+.body{
+    background-color: cornflowerblue;
+}.button{
+    background-color:rgb(178, 214, 228);
+}
+.button1{
+    background-color:rgb(129, 176, 238);
+}
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    }
+.table{
+    box-sizing: border-box;
+    width: 800px;
+    height: 800px;
+    border: 5px;
+    border-color: lightblue;
+    text-align: left;
+
+}
+.p{
+    margin-left: 150px;
+    margin-right: 200px;
+}
+

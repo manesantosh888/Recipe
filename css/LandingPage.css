@@ -1,0 +1,159 @@
+.Outer_flexbox{
+    display:inline-flex;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    border: solid #1F2937;
+}
+.flex-container{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+}
+.header-flexbox{
+    padding: 1%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+.navbar{
+    
+    display: flex;
+    flex-direction: row;
+}
+.navbar div{
+   margin-left:5% ;
+}
+.navbar button{
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.upper{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.upper div{
+    padding-left: 20%;
+
+}
+.divU1{
+    color: white;
+    font-size:24px;
+    font-weight: 900;
+}
+.divU2 img{
+    height: 50%;
+    width: 60%;
+    
+}
+.divU1 button{
+    padding: 10px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+   
+   
+}
+.ImgLogo{
+    padding-left:2% ;
+    height: 15%;
+    width: 15%;
+}
+.middle_flexbox{
+    display: flex;
+    background-color: #F9FAF8;
+    flex-direction: column;
+    align-items: center;
+}
+.middle_flexbox p{
+    color: #367bdb;
+    font-size:24px;
+    font-weight: 900;
+    text-decoration: none;
+}
+.img-flexbox{
+    display: flex;
+    background-color: #F9FAF8;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    align-items: center;
+}
+.img-flexbox div{
+    padding-left: 0.5%;
+}
+.img-flexbox a{
+    text-decoration: none;
+}
+.end_flexbox{
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.end_flexbox p{
+    color: #1F2937;
+    font-style: italic;
+    font-size:24px;
+    font-weight: normal;
+}
+
+.header-flexbox button{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.footer-inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+    border: black;
+    border-radius: 12px;
+    background: rgb(170, 170, 233);
+    background-clip: content-box;   
+    
+}
+.footer-inner .div1{
+    padding: 5%;
+}
+.footer-inner .div2{
+    padding: 5%;
+    padding-left: 12%;
+}
+.footer-inner .div2 button{
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    border-radius: 10px;
+    background: blue; 
+}
+.last{
+    padding: 2%;
+    background-color: #1F2937;
+    align-items: center;
+    text-align: center;
+    color: white;
+}

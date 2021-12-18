@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChickenPiccata</title>
+    <link rel="stylesheet" href="css\ChickenPiccata.css">  
+    <link rel="stylesheet" href="css\index.css">
+     
+</head>
+<body class="body">
+   
+    <h1 style="text-align: center;">Welcome to world of Recipe</h1>
+    <div class="div">
+      <button type="button" class="navButton1" style="background: tomato;"><a href="index.html" style="text-decoration:thistle;">Allrecipes</a></button>
+      <input type="search"><button type="button" class="navButton" style="margin-left: 0px;"><a href="#Login.html">search</a></button>           
+      <button type="button" class="navButton" style="padding-left: 900px;"><a href="#Login.html">Login</a></button>
+      <button type="button" class="navButton"><a href="#Login.html">About Us</a></button>  
+    </div>
+   
+    <table>
+        <tr>
+            <td>
+                <img src="images\ChickenCurry.jpg" alt="Chicken Piccata" width="400" height="400">
+                <P>By <strong>SAM</strong>&nbsp;&nbsp;<div id="btndiv"><button id ="btn">UnLike</button></div> </P>
+            </td>
+            
+            
+            <td>
+                <p>These quick and easy pan-fried chicken breasts are topped with a simple pan sauce made with capers, butter, white wine, and lemon juice.</p>
+                <p>Piccata is an Italian word spelled sometimes as picatta or pichotta. The culinary use of the Italian term means "to be pounded flat". When used in reference to a way of preparing food, particularly meat or fish, it means "sliced, sautéed, and served in a sauce containing lemon, butter and spices".
+
+                    Traditionally, the Italians use veal (veal piccata); however, the best known dish of this sort in the US uses chicken (chicken piccata). The recipe has a meatless adaptation using seitan (seitan piccata). Piccata is also prepared using veal (piccata di vitello al limone) or frittura piccata,[1] particularly in the Milanese region [2] swordfish (pesce spada con capperi e limone).[3][4]</p>
+            </td>                  
+        </tr>
+        <tr>                                  
+            <td>
+                <p><button id="Ingredients" onclick="ingredients()"><strong>Ingredients :</strong></button></p>
+                <div id="parent1"></div>       
+            </td>
+            <td>
+                <button id="steps" onclick="steps()"><strong>Steps :</strong></button>
+                <div id="parent2"></div>
+            </td>
+        </tr>                
+    </table>
+    <Script src="js\ChickenPiccata.js"></Script>  
+    <footer style="text-align: center;">
+        <br/>
+        <br/>
+        <p>Allrecipes is part of the Indexnine Food Group. © Copyright 2021 Indexnine Corporationthis link opens in a new tab. All Rights Reserved.</p>
+      </footer> 
+</body>
+</html>

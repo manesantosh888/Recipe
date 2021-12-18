@@ -1,0 +1,28 @@
+
+.body{
+    height: 100%;
+    background-color: cornflowerblue;
+}
+.div{
+    background-color:rgb(173, 191, 230);
+    padding: 10px;       
+}
+.navButton{
+    border: 0px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: rgb(173, 191, 230);
+}
+.navButton1{
+    box-sizing: content-box;
+    border: 0px;
+    background-color: rgb(173, 191, 230);
+}
+.index-block{
+        width: 300px;
+        height: 300px;
+        box-sizing: border-box;
+        border: 5px;
+        border-color: lightblue;
+        text-align: center;
+}

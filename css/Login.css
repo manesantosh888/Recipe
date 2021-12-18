@@ -1,0 +1,68 @@
+.body{
+  height: 100%;
+  background-image: url("background1.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.div{
+  background-color:rgb(173, 191, 230);
+  padding: 10px;       
+}
+.navButton{
+  border: 0px;
+  padding: 10px;
+  margin-left: 20px;
+  background-color: rgb(173, 191, 230);
+}
+.flex-outer{
+    height:100%; 
+    display:flex;
+    align-items: center;
+}
+.flex-container{
+    display:inline-flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: inherit;
+    margin-top:2%;
+}
+.flex-container div {
+    align-content: center;
+    flex-direction: row;  
+    height: 70px;
+    width: 400px;
+    justify-content: center;
+    flex: 1 1 auto;
+  }
+  .flex-container .one {
+    border-radius:1em;
+    margin-left: 20%;
+    padding: 20%;
+    align-items: center;
+    width: 55%;
+    padding: 10px;
+    flex-shrink: 0;
+    background-color: skyblue;
+    color: whitesmoke;
+  }
+  .flex-container .two {
+    padding-top: 20px;
+    flex-shrink: 0;
+  }
+  input[type=text],input[type=password],label{
+      text-align: center;
+      width : 60%;
+      height:50%;
+      font-size: 18px;
+  }
+#btn{
+    height: 60%;
+    width: 30%;
+    background-color: rgb(5, 145, 51);
+}
+#lbe{
+    text-align: center; 
+    height: 100%;
+    width: 100%;
+    background-color: rgb(33, 221, 165);
+}
